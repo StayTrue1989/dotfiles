@@ -6,7 +6,6 @@
         "plaintext": false,
         "markdown": false
     },
-    "python.formatting.provider": "black",
     "[python]": {
         "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?_"
@@ -73,7 +72,7 @@
         "!Join mapping",
         "!Join sequence"
     ],
-    "redhat.telemetry.enabled": true,
+    "redhat.telemetry.enabled": false,
     "editor.fontSize": 16,
     "terminal.integrated.fontSize": 16,
     "debug.console.fontSize": 16,
@@ -82,5 +81,4 @@
     "editor.fontLigatures": false,
     "editor.fontWeight": "normal",
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
-    
 }
