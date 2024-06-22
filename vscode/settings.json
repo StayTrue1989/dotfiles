@@ -17,13 +17,32 @@
     "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
     "playwright.reuseBrowser": false,
     "json.schemas": [],
-    "[yaml]": {
-        "editor.defaultFormatter": "redhat.vscode-yaml"
-    },
     "[python]": {
         "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?_"
     },
+    "yaml.format.enable": true,
+    "yaml.customTags": [
+        "!And sequence",
+        "!Base64 scalar",
+        "!Cidr scalar",
+        "!Condition scalar",
+        "!Equals sequence",
+        "!FindInMap sequence",
+        "!GetAZs scalar",
+        "!GetAtt scalar",
+        "!GetAtt sequence",
+        "!If sequence",
+        "!ImportValue scalar",
+        "!Join sequence",
+        "!Not sequence",
+        "!Or sequence",
+        "!Ref scalar",
+        "!Select sequence",
+        "!Split sequence",
+        "!Sub scalar",
+        "!Transform mapping",
+    ],
     "github.copilot.enable": {
         "*": true,
         "yaml": true,
