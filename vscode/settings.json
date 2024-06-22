@@ -1,5 +1,8 @@
 {
     "editor.inlineSuggest.enabled": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.tabCompletion": "on",
     "github.copilot.enable": {
         "*": true,
         "yaml": true,
